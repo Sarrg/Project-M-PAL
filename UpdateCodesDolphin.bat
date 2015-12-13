@@ -1,4 +1,5 @@
 @echo off
+mkdir tmp
 REM java -jar tools\jwiicm-0.5.2.jar -f RSBE01.txt > tmp\RSBE01.gct
 java -jar tools\jwiicm-0.5.2.jar -f RSBP01.txt > tmp\RSBP01.gct
 imdisk -a -f "C:\%HOMEPATH%\Documents\Dolphin Emulator\Wii\sd.raw" -m P:
