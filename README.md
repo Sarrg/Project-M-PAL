@@ -2,6 +2,8 @@
 As the offical developement of Project M and therefore the PAL port has been cancelled, we will try porting it.  
 Be aware that this is **experimental!** While there shouldn't be any issues when testing on a real console, please do so only if you are experienced enough.
 
+Visit us at [#projectpal @ freenode.net](irc://irc.freenode.net/projectpal)
+
 # Tools needed
 - A Gecko Code compiler (Recommended: jwiicm)
 - When using Dolphin, a tool that can mount the SD.raw (Recommended: ImDisk)
