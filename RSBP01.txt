@@ -42,7 +42,7 @@ C277C310 00000006
 39610040 00000000
 
 Lagless Character Selection [Magus, ported by Sarrg] * 0xFC00000 is important (?) (changing it can result is strange behaviours) and the rest are for the timing. Could be reduced to 0.]
-04694C74 FC000040 
+04694C74 FC000040
 
 No Autosweetspot Ledges v1.1 [spunit262, Dantarion, Magus, ported by Sarrg]
 C277C2B0 00000008
@@ -55,11 +55,10 @@ FC000840 40A0000C
 60000000 38000000
 5400CFFF 00000000
 
-
 Z now triggers aerials instead of air dodge v1.1 [Shanus, Wind Ow, ported by Sarrg] *characters that have long grab options need another fix (samus, lukas, link, etc)
 4A000000 90000000
 1619BC00 00000030
-00000006 80000030  
+00000006 80000030
 00000000 00000000
 02000401 80FA676C
 02040100 80FA678C
@@ -73,9 +72,24 @@ Disable Custom Stages [ported by Sarrg]]
 Stage Choice Random Fix [ds22, ported by Sarrg] nottested
 0405625C 4080014C
 
-Turbo Mode - On Hit Interrupts v1.1 [Magus, Dantarion, standardtoaster, ported by Sarrg] *works, but I got that strange glitch where every button press was instant in the menu
+Link and Toon Link's Bombs Are now Collidable on Hit v2.0 [Shanus, Dantarion, ported by Sarrg] *doesn't work in NTSC either?
+4A000000 90000000
+1619AD50 00000028
+00000000 00000014
+00000002 9019AD60
+02010200 91065134
+22020100 9019AD50
+00080000 00000000
+4A000000 90000000
+170651A4 00000008
+00070100 9019AD58
+4A000000 90000000
+170691C4 00000008
+00070100 9019AD58
+
+Turbo Mode - On Hit Interrupts v1.1 [Magus, Dantarion, standardtoaster, ported by Sarrg]
 C277B3A0 00000022
-90620020 90820024 
+90620020 90820024
 8183002C 818C0004
 A00C0008 2C000005
 408200E8 80030034
@@ -99,7 +113,7 @@ A00C0008 2C000005
 3D808084 618C6B1C
 7D8903A6 39802329
 4E800421 93E2002C
-3FE0901C 63FF050C
+3FE0901C 63FF450C
 A4BF0004 2C057FFF
 41820024 A09F0002
 80620020 8063002C
@@ -159,6 +173,7 @@ FCC01A10 FC062040
 3800FFFF 7C000034
 60000000 00000000
 
+
 Turbo Mode - Turbo Cleared in Normal Allow Interrupt [Magus, ported by Sarrg] nottested
 C2846B30 00000006
 2C0C2329 41820024
@@ -180,10 +195,10 @@ Turbo Mode - Disable Curry Wait and Run [Magus, ported by Sarrg]
 04FA7728 800000FF
 04FA7B88 800000FF
 
-Turbo Mode - Curry Special Brawl Uses Curry Aura [Magus, ported by Sarrg] * I guess this one works, I didn't compare this one yet when it is off
+Turbo Mode - Curry Special Brawl Uses Curry Aura [Magus, ported by Sarrg]
 0483E950 60000000
 
-Turbo Mode - Curry Special Brawl Doesn't Exclude Nana [Magus, ported by Sarrg] nottested
+Turbo Mode - Curry Special Brawl Doesn't Exclude Nana [Magus, ported by Sarrg]
 04832C44 60000000
 
 Super Spicy Curry has no SFX [standardtoaste, ported by Sarrg]
@@ -210,12 +225,12 @@ Melee 361 Angle [Magus, ported by Sarrg] nottested
 
 Custom Stage Select Screen [Spunit, Phantom Wings, SOJ, ported by Sarrg]
 046B08A8 7C802378
-046B08B0 7C6300AE
-040B0C80 5460083C
-040B0CF4 38840002
+046B08B0 7C6300AE 
+040B0C80 5460083C 
+040B0CF4 38840002 
 040B0D14 5463083C
-040B0D28 88030001
-040B0D50 3860FFFF
+040B0D28 88030001  
+040B0D50 3860FFFF 
 040B0C04 3860000C
 060BAA14 00000018
 BFA10014 7CDF3378
@@ -387,7 +402,6 @@ BC410008 3D00902F
 80210000 807F0000
 4BC26034 00000000
 E0000000 80008000
-
 
 pfmenu2 fixes (sc_title, mu_menumain & if_adv_mngr) [Dantarion, ported by Sarrg] untested *this one could be the solution to get the pm menu working in PAL, when modified.
 066FA498 00000014

@@ -1,0 +1,41 @@
+Project M Codes ported: 31/486
+Untested: ?
+
+Issues:
+- Noticed that the Stage Select Option String was messed up (german)
+- Item switch lags the game in Dolphin
+- Sometimes there is lag in Dolphin
+
+PAL crashing files:
+/pf
++-system
++--common3.pac *it misses a few data sections, which we have to add manually. Brawlbox does not support importing misc byte data.
++-info2
++--info.pac
+
+PAL language specific files:
+- They will not be replaced by the FPC (File Patch Code) so far
+- The character menu, title screen, and intro sequence does get replaced like in the NTSC version
+- The character menu is language specific, so I don't know why it gets replaced. 
+- We need to make a new code so we can replace these files, or we try to make it work that every language is just english or default (like in NTSC).
+
+Custom Music:
+- Works.
+
+Custom Stage: (I am using the data from the netplay version. So thing might be different for the offical 3.6)
+- metal cavern: crashes
+- saffron city: crashes
+- wario land: crashes
+- fountain of dreams has a fixed camera (there might be a code for this)
+- yoshi's story collision does not match
+- (battlefield loads the brawl version, could be a netplay thing)
+- pokestad2 is glitched. collisions are wrong and it starts as a transformed version.
+- defino secret: crashes
+- kongo jungle (rebalanced): crashes 
+- rumble falls: crashes
+
+Characters:
+- kirby: modified up b doesn't work, no flames with running A
+- g&w: crashes when attacking
+
+
