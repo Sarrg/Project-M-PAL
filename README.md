@@ -17,7 +17,11 @@ Be aware that this is **experimental**. While there shouldn't be any issues when
 - **item** (Not tested yet)
 - **module** (Not tested yet)
 - **stage** (For Advanced Users see: Stages)
+- In **info2** delete **info.pac**
 - In **system** delete **common3.pac**
+
+# Updating the Codes (Dolphin)
+I've included a Batch file that updates the Codes in the "SD.raw". You need a folder "tools" with jwiicm in it and ImDisk installed.
 
 # Characters
 ### Working:
