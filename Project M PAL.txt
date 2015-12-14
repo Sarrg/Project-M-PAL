@@ -35,7 +35,19 @@ Custom Stage: (I am using the data from the netplay version. So thing might be d
 - rumble falls: crashes
 
 Characters:
+- mario: attacks seem to work, but randomly crashes the game when performing them. Also something doing an aerial attack with Z changes the camera mode.
+- dk: same as mario
+- link: same as mario
+- samus: when selected, crashes the game
 - kirby: modified up b doesn't work, no flames with running A
+- fox: fire doesn't make any sound. sometimes the fire sounds get looped over and over. also crashes the game
+- pikachu: crashes the game. does not do any voices.
+- marth: crashes
 - g&w: crashes when attacking
+
+Bugs:
+- With CSS on, Random gives characters a different character profile. Can also crash the game. Glitch occurs more often in PAL
+- Training doesn't work. Doesn't affect NTSC (deleting info2->info_training.pac should work)
+
 
 
