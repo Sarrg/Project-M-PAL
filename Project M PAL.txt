@@ -1,4 +1,4 @@
-Project M Codes ported: 98/486
+Project M Codes ported: 108/486
 Untested: 8
 
 Issues:
@@ -46,8 +46,8 @@ Characters:
 - g&w: crashes when attacking
 
 Bugs:
-- With CSS on, Random gives characters a different character profile. Can also crash the game. Glitch occurs more often in PAL
-- Training doesn't work. Doesn't affect NTSC (deleting info2->info_training.pac should work)
+- Samus crawl doesn't work (not loaded)
+- G&W second jab doesn't work (not loaded)
 
 Mode Idea:
 - Increase Shield Strength and Shield Recovery
