@@ -1,5 +1,5 @@
-Project M Codes ported: 31/486
-Untested: ?
+Project M Codes ported: 98/486
+Untested: 8
 
 Issues:
 - Noticed that the Stage Select Option String was messed up (german)
@@ -49,5 +49,8 @@ Bugs:
 - With CSS on, Random gives characters a different character profile. Can also crash the game. Glitch occurs more often in PAL
 - Training doesn't work. Doesn't affect NTSC (deleting info2->info_training.pac should work)
 
-
+Mode Idea:
+- Increase Shield Strength and Shield Recovery
+- Decrease Shield Break Stun
+- Increase Smash Attack Multiplier
 

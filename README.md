@@ -17,7 +17,7 @@ Be aware that this is **experimental!** While there shouldn't be any issues when
 - **item** (Not tested yet)
 - **module** (Not tested yet)
 - **stage** (For Advanced Users see: Stages)
-- **info2 -> info.pac**
+- **info2** (Crashes Stadium Modes and Menu)
 - **system -> common3.pac**
 
 # Updating the Codes (Dolphin)
@@ -25,10 +25,11 @@ I've included a Batch file that updates the Codes in the "SD.raw". You need a fo
 
 # Characters
 ### Working:
-- **Kirby**: Dash Attack has no Flame Effect. Final Cutter can't attack horizontal.
+- **Kirby**: Dash Attack has no Flame Effect. Final Cutter can't attack horizontal. Copy Abilities are crashing the game.
 
 ### Not Working:
 - **Game & Watch**: Attacking crashes the game
+- **Most other characters**: Crash after a few attacks. Mostly aerials.
 
 # Stages
 - **Metal Cavern**: crashes
